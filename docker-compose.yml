@@ -8,6 +8,6 @@ services:
     env_file:
       - pathfinder-var.env
     volumes:
-      - ./pathfinder:/usr/share/pathfinder/data
+      - ./pathfinder:/usr/share/pathfinder/data #volume info
     ports:
       - 9545:9545
