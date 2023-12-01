@@ -6,7 +6,7 @@ services:
     environment:
       - RUST_LOG=info
     env_file:
-      - pathfinder-var.env
+      - pathfinder-var.env #env path
     volumes:
       - ./pathfinder:/usr/share/pathfinder/data #volume info
     ports:
